@@ -8,6 +8,8 @@ from darcyai.output.live_feed_stream import LiveFeedStream
 from darcyai.pipeline import Pipeline
 from darcyai.config import RGB
 
+from flask import jsonify
+
 # Instantiate an Camera Stream input stream object
 camera = CameraStream(video_device=0, fps=100)
 
@@ -69,5 +71,12 @@ pipeline.set_perceptor_config("peeps", "show_pose_landmark_dots", True)
 pipeline.set_perceptor_config("peeps", "pose_landmark_dot_size", 2)
 pipeline.set_perceptor_config("peeps", "pose_landmark_dot_color", RGB(0, 255, 0))
 
+# app = pipeline.__flask_app
+
+@pipeline.__flask_app.route('/peeps', methods = ['GET', 'POST'])
+def peeps():
+    return jsonify(people_ai.peeps.peopleCount())
+
 # Start the Pipeline
 pipeline.run()
+
