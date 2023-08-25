@@ -1,41 +1,14 @@
 import React, { useState, useEffect } from 'react'
+import Navbar from './Navbar'
+import MainText from './MainText'
 
 function App() {
 
-  const [data, setData] = useState([{}])
-
-   
-
-  // useEffect(() => {
-  //   fetch("/data").then(
-  //     res => res.json()
-  //   ).then(
-  //     data => {
-  //       setData(data)
-  //     }
-  //   )
-  // })
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      fetch("/data").then(
-        res => res.json()
-      ).then(
-        data => {
-          setData(data)
-        }
-      )
-    }, 1000)
-
-    return () => clearInterval(intervalId)
-
-  })
-
   return (
-    <>
-      <p>waste type: {data.obj}</p>
-      <p>confidence: {data.conf}</p>
-    </>
+    <div className='bg-grey'>
+      <Navbar />
+      <MainText />
+    </div>
   )
 }
 

@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 # Variable for object waste type
 currObj = ''
-currConf = ''
+currConf = 0
 
 # Instantiate a Camera Stream input stream object
 camera = CameraStream(video_device=0, fps=20)
@@ -26,7 +26,7 @@ def perception_completion_callback(pom):
     global currConf
     for object in pom.object_detection:
         currObj = object.name
-        currConf = object.confidence
+        currConf = object.confidence * 100
 
 def perceptor_input_callback(input_data, pom, config):
     return input_data.data
@@ -66,16 +66,10 @@ object_detection = ObjectDetectionPerceptor(processor_preference={
 # Add object detection perceptor to the pipeline
 pipeline.add_perceptor("object_detection", object_detection, accelerator_idx=0, input_callback=perceptor_input_callback)
 
-
-
+# route for current objec type and confidence
 @app.route("/data", methods = ['GET', 'POST'])
 def peeps():
-    # return {"obj" : currObj}
-    # strConf = json.dumps(float(currConf))
-    return {"obj" : currObj, "conf" : str(currConf)}
-@app.route('/test', methods = ['GET'])
-def test():
-    return "Hello World!"
+    return {"obj" : currObj, "conf" : str(currConf)[:2]}
 
 # Start Pipeline and Flask Backend
 if __name__ == "__main__":
