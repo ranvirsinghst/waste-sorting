@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import Navbar from './Navbar'
-import MainText from './MainText'
+import React from 'react'
+import Navbar from './components/Navbar'
+import MainText from './components/MainText'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 
   return (
-    <div className='bg-grey'>
+    <div>
       <Navbar />
       <MainText />
     </div>

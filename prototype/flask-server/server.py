@@ -41,12 +41,12 @@ def waste_input_callback(input_data, pom, config):
     # Just take the frame from the incoming input stream and send it onward - no need to modify the frame
     return input_data.data.copy()
 
-script_dir = pathlib.Path(__file__).parent.parent.parent.absolute()
+script_dir = pathlib.Path(__file__).parent.absolute()
 # Determine models and labeling files for usage
-coral_model_file = os.path.join(script_dir, "models", "wasteV3.tflite")
-coral_labels_file = os.path.join(script_dir, "models", "waste_labels.txt")
-cpu_model_file = os.path.join(script_dir, "models", "wasteV3.tflite")
-cpu_labels_file = os.path.join(script_dir, "models", "waste_labels.txt")
+coral_model_file = os.path.join(script_dir, "", "waste_det_v4.tflite")
+coral_labels_file = os.path.join(script_dir, "", "waste_labels.txt")
+cpu_model_file = os.path.join(script_dir, "", "waste_det_v4.tflite")
+cpu_labels_file = os.path.join(script_dir, "", "waste_labels.txt")
 
 # Instantiate an object detection perceptor
 object_detection = ObjectDetectionPerceptor(processor_preference={

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import ProgressBar from 'react-bootstrap/ProgressBar'
+import AccordionText from './AccordionText'
 
 function MainText() {
 
@@ -20,9 +22,12 @@ function MainText() {
   })
 
   return (
-    <div className='flex-row p-6 bg-white rounded-xl shadow-lg max-w-sm'>
-      <p>Waste Type: {data.obj}</p>
-      <p>Prediction Confidence: {data.conf}%</p>
+    <div className='maintext flex-row background-black'>
+      <div className='self-start p-4 bg-white text-black rounded-xl shadow-xl max-w-sm'>
+        <p>Waste Type: {data.obj}</p>
+        <ProgressBar className='max-w-sm' animated now={data.conf} label={`Confidence: ${data.conf}%`}/>
+      </div>
+      <AccordionText />
     </div>
   )
 }

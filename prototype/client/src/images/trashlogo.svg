@@ -1,0 +1,57 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" viewBox="0 0 167.1 213.24" version="1.1" inkscape:version="0.91 r13725">
+  <g id="layer1" transform="translate(-282.7 -283.95)">
+    <g id="g3640" transform="translate(1176.6 31.113)">
+      <path id="path2832" style="stroke:#000000;stroke-width:3;fill:#000000" d="m-756.6 271.01a16.668 16.668 0 1 1 -33.335 0 16.668 16.668 0 1 1 33.335 0z"/>
+      <path id="path3610" style="stroke:#000000;stroke-width:1px;fill:#000000" d="m-750 293.26-103.21 0.89286c-4.3965 0.038-3.5754 5.0714 0.17857 5.7143l58.393 10c5.0785 1.0358 8.7881 4.0272 10.536 9.8214l9.6428 26.071 44.46-1.42c3.7901 0 2.7889-1.5931 1.6071-4.1072l-21.61-46.96z"/>
+      <path id="path3614" style="stroke:#000000;stroke-width:1px;fill:#000000" d="m-771.07 349.86h40.893c1.7061 0.58881 2.3948 1.8558 2.6786 3.3929l-6.4286 108.75c-0.82774 3.0892-7.7388 3.7187-8.3929-0.71429l-11.25-76.25c0-3.6999-2.7788-4.5971-4.4643-0.71428l-34.107 78.571c-1.809 4.1673-9.7091 3.5174-8.2143-2.1429l29.286-110.89z"/>
+      <path id="path3618" style="stroke:#000000;stroke-linecap:round;stroke-width:5;fill:none" d="m-891.43 354.33h89.643"/>
+      <path id="path3620" style="stroke:#000000;stroke-width:5;fill:none" d="m-807.32 356.29-13.393 102.5h-49.643l-15.536-103.04"/>
+      <path id="path3622" style="stroke:#000000;stroke-width:5;fill:none" d="m-845.89 458.43v-102.32"/>
+      <path id="path3624" style="stroke:#000000;stroke-width:5;fill:none" d="m-857.5 458.97-9.4643-104.11"/>
+      <path id="path3626" style="stroke:#000000;stroke-width:5;fill:none" d="m-834.11 458.43 7.3214-103.04"/>
+      <path id="path3628" style="stroke:#000000;stroke-width:5;fill:none" d="m-873.39 437.36h55.179"/>
+      <path id="path3630" style="stroke:#000000;stroke-width:5;fill:none" d="m-875.54 421.11h58.75"/>
+      <path id="path3632" style="stroke:#000000;stroke-width:5;fill:none" d="m-878.21 404.68h63.214"/>
+      <path id="path3634" style="stroke:#000000;stroke-width:5;fill:none" d="m-880.36 388.61h67.321"/>
+      <path id="path3636" style="stroke:#000000;stroke-width:5;fill:none" d="m-882.86 373.26h71.964"/>
+      <path id="path3638" style="stroke:#000000;stroke-width:1.3677px;fill:#000000" d="m-855.69 330.85 13.989 13.989 11.744-11.744-13.989-13.989c-4.6423-2.528-8.1868-3.0329-12.391-3.1518l-10.146-10.146-2.4178 2.4178 10.146 10.146c0.2503 4.245 0.76965 8.4601 3.0655 12.478z"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Drop the beer to the trash, please</dc:title>
+        <dc:date>2010-08-20T00:58:09</dc:date>
+        <dc:description>A symbol I made for a beer label</dc:description>
+        <dc:source>https://openclipart.org/detail/81385/drop-the-beer-to-the-trash-please-by-printerkiller</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>PrinterKiller</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>beer</rdf:li>
+            <rdf:li>bottle</rdf:li>
+            <rdf:li>drop</rdf:li>
+            <rdf:li>please</rdf:li>
+            <rdf:li>trash</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

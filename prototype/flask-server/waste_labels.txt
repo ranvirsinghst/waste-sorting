@@ -1,0 +1,3 @@
+0  recycling
+1  trash
+2  compost
