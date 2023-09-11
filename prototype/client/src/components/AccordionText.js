@@ -24,14 +24,22 @@ function AccordionText() {
                         The dataset used to train this object detection model is 
                         open for contribution on Github <a href="https://github.com/ranvirsinghst/waste-sorting/tree/main">here</a>.
                         Anyone is welcome to add their own images and labeling to the 
-                        dataset, so that someday it can be even more accurate!
+                        dataset, so that it can eventually be more accurate.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>Credits</Accordion.Header>
                     <Accordion.Body>
                         This project was developed as part of my internship at Edgeworx, Inc. 
-                        in Berkeley, California. 
+                        in Berkeley, California. I used the DarcyAI Python package to create 
+                        the pipeline involving my machine learning model, and React for this 
+                        website. The datasets I combined to train my model are:
+                        <ul>
+                            <li>MJU-Waste: Tao Wang, Yuanzheng Cai, Lingyu Liang, Dongyi Ye. A Multi-Level Approach to Waste Object Segmentation. Sensors 2020, 20(14), 3816.</li>
+                            <li>Gary Thung - <a href="https://github.com/garythung/trashnet">TrashNet</a></li>
+                            <li>Sarah Frost - <a href="https://github.com/sarahmfrost/compostnet">CompostNet</a></li>
+                            <li>Kritik Seth - <a href="https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition">Fruits and Vegetables Image Recognition</a></li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

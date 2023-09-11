@@ -11,8 +11,8 @@ You can download my dataset from this [Google Drive link](https://drive.google.c
 Given the difficulty in finding a pre-annotated dataset or pre-trained model for this specific use case, I'm seeking help with annotating the images contained in this repository. Please reach out to me at ranvir@edgeworx.io if you are at all interested in helping. I would invite you to a labeling batch on Roboflow and assign you images to create bounding boxes for.
 ### Citations
  - MJU-Waste: Tao Wang, Yuanzheng Cai, Lingyu Liang, Dongyi Ye. A Multi-Level Approach to Waste Object Segmentation. Sensors 2020, 20(14), 3816.
- - Gary Thungs -- TrashNet: https://github.com/garythung/trashnet
- - Sarah Frost -- CompostNet: https://github.com/sarahmfrost/compostnet
- - MIT -- MIT Indoor Scenes: https://www.kaggle.com/datasets/itsahmad/indoor-scenes-cvpr-2019
- - Kritik Seth -- Fruits and Vegetables Image Recognition: https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition
+ - Gary Thung - TrashNet: https://github.com/garythung/trashnet
+ - Sarah Frost - CompostNet: https://github.com/sarahmfrost/compostnet
+ - MIT - MIT Indoor Scenes: https://www.kaggle.com/datasets/itsahmad/indoor-scenes-cvpr-2019
+ - Kritik Seth - Fruits and Vegetables Image Recognition: https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition
 
