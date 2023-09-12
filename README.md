@@ -1,7 +1,7 @@
 # Waste Classification
 
 ### Introduction
-I'm creating a computer vision app for classifying different types of waste as part of my internship at Edgeworx, Inc. in Berkeley, CA. This application will run on an edge node with a camera, to see an item held over the waste bins in the office and provide a notification as to where it belongs. 
+I'm creating a computer vision app for classifying different types of waste as part of my internship at Edgeworx in Berkeley, CA. This application will run on an edge node with a camera, to see an item held over the waste bins in the office and provide a notification as to where it belongs. 
 ### Contents
 This repository links to a dataset of several thousand images sourced from three separate datasets (cited below). There is also a folder titled "models" containing versions of the TFLite model I have trained using Google's Vertex AI on small subsets of the dataset. From now on, I intend to annotate my data on Roboflow and train my models on Create ML.
 This repo also contains an instructions pdf to assist with the object labeling process.
