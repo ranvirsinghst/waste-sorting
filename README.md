@@ -8,7 +8,7 @@ This repo also contains an instructions pdf to assist with the object labeling p
 ### Download
 You can download my dataset from this [Google Drive link](https://drive.google.com/file/d/1ecWbU6FGsLzrrS09xpSWisWMk-PFG6TW/view?usp=sharing).
 ### Contributing
-Given the difficulty in finding a pre-annotated dataset or pre-trained model for this specific use case, I'm seeking help with annotating the images contained in this repository. Please reach out to me at ranvir@edgeworx.io if you are at all interested in helping. I would invite you to a labeling batch on Roboflow and assign you images to create bounding boxes for.
+Given the difficulty in finding a pre-annotated dataset or pre-trained model for this specific use case, I'm seeking help with annotating the images contained in this repository. Please reach out to me at ranvirsingh.st@gmail.com if you are at all interested in helping. I would invite you to a labeling batch on Roboflow and assign you images to create bounding boxes for.
 ### Citations
  - MJU-Waste: Tao Wang, Yuanzheng Cai, Lingyu Liang, Dongyi Ye. A Multi-Level Approach to Waste Object Segmentation. Sensors 2020, 20(14), 3816.
  - Gary Thung - TrashNet: https://github.com/garythung/trashnet

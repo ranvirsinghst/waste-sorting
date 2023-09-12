@@ -18,7 +18,7 @@ currObj = ''
 currConf = 0
 
 # Instantiate a Camera Stream input stream object
-camera = CameraStream(video_device=0, fps=20)
+camera = CameraStream(video_device=0, fps=20, video_height=640, video_width=640)
 
 # Callback function for the handling Rest API output stream data
 def perception_completion_callback(pom):
